@@ -1,0 +1,64 @@
+﻿
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:id="@+id/LinearLayoutConnect"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnBTH_List"
+                android:clickable="true"
+                android:text="Select Network to Join"
+                android:layout_width="300dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_BTH_sel"/>
+            <Button
+                android:id="@+id/btnBTH_Test"
+                android:clickable="true"
+                android:text="Set WiFi Password"
+                android:layout_width="300dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_BTH_src"/>
+
+            <Button
+                android:id="@+id/btnBTH_Clos"
+                android:clickable="true"
+                android:text="Connect Wifi"
+                android:layout_width="300dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_BTH_ply"/>
+
+            <Button
+                android:id="@+id/btnBTH_Open"
+                android:clickable="true"
+                android:text="Set Server Information"
+                android:layout_width="300dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_BTH_dbg"/>
+
+
+            <TextView
+                android:id="@+id/txtBTH_Conn"
+                android:background="@drawable/sh_TXT_bak"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_centerInParent="true"
+                android:textColor="@android:color/holo_blue_bright"/>
+    </LinearLayout>
+
+</RelativeLayout>

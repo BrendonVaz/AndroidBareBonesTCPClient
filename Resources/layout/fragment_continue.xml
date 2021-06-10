@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:id="@+id/LinearLayoutConnect"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnCON_Cmd5"
+                android:clickable="true"
+                android:text="Send Command 5"
+                android:layout_width="300dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:onClick=""
+                android:drawableLeft="@drawable/ic_CMD_cmd"/>
+
+            <Button
+                android:id="@+id/btnCON_Cmd6"
+                android:clickable="true"
+                android:text="Send Command 6"
+                android:layout_width="300dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_CMD_cmd"/>
+
+            <Button
+                android:id="@+id/btnCON_Cmd7"
+                android:clickable="true"
+                android:text="Send Command 7"
+                android:layout_width="300dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_CMD_cmd"/>
+
+            <Button
+                android:id="@+id/btnCON_Cmd8"
+                android:clickable="true"
+                android:text="Send Command 8"
+                android:layout_width="300dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_CMD_cmd"/>
+
+            <TextView
+                android:id="@+id/txtCON_Msgs"
+                android:background="@drawable/sh_TXT_bak"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_centerInParent="true"
+                android:textColor="@android:color/holo_blue_bright"/>
+    
+    </LinearLayout>
+
+</RelativeLayout>
